@@ -30,7 +30,7 @@
 
         .logo{
             display: block;
-            width : 700px;
+            width : 60%;
             margin: auto;
             padding: 80px 0 50px 0;
         }
@@ -62,11 +62,11 @@
         }
 
         .typing-circle {
-        width: 8px;
-        height: 8px;
+        width: 9px;
+        height: 9px;
         position: absolute;
         border-radius: 50%;
-        background-color: #000;
+        background-color: #F6F6CB;
         left: 15%;
         transform-origin: 50%;
         animation: typing-circle7124 0.5s alternate infinite ease;
@@ -142,6 +142,18 @@
         right: 15%;
         animation-delay: 0.3s;
         }
+
+        @media only screen and (max-width: 600px) {
+            .text_1{
+                font-size: 50px;
+            }
+        }
+
+        @media only screen and (min-width: 600px) {
+            .text_1{
+                font-size: 70px;
+            }
+        } 
     </style>
 </head>
 <body>
